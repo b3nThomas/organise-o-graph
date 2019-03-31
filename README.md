@@ -20,4 +20,3 @@
     Babys_first_week_3.mov
     Babys_first_week_4.jpg
     Babys_first_week_3.jpg
-
