@@ -1,0 +1,25 @@
+{
+  "name": "organise-o-graph",
+  "version": "1.0.0",
+  "description": "Normalises the file names of photos and videos chronologically ",
+  "main": "main.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b3nThomas/organise-o-graph.git"
+  },
+  "keywords": [
+    "organise",
+    "photo",
+    "video",
+    "files"
+  ],
+  "author": "b3nThomas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/b3nThomas/organise-o-graph/issues"
+  },
+  "homepage": "https://github.com/b3nThomas/organise-o-graph#readme"
+}
