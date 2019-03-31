@@ -66,3 +66,4 @@ typings/
 
 # Local files
 notes.txt
+.DS_Store
