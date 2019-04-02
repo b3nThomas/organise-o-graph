@@ -4,11 +4,13 @@
             "jpg"
         ],
         "videos": [
-            "mov"
+            "mov",
+            "mp4"
         ],
         "combined": [
             "jpg",
-            "mov"
+            "mov",
+            "mp4"
         ]
     }
 }
