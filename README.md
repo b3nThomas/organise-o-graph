@@ -5,7 +5,7 @@
 >*Inspired by the birth of my daughter and the hundreds of pictures I keep getting sent on Whatsapp* 😂  
 >*This app only supports .jpg and .mov files for now.*  
 
->_I've tried my best, however modified / duplicated / edited files aren't sorted accurately 100% of the time_ 😭  
+>_I've tried my best withthis, wish I'd have known before that Whatsapp strips metadata for security purposes..._ 😭  
 
 `Before:`
 
