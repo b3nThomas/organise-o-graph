@@ -31,7 +31,7 @@ Download and install the app:
     $ cd organise-o-graph
     $ npm install
 
-`organise-o-graph` will copy all files from one destination to another while sorting chronically, numbering and prepending your desired tag to each file.
+`organise-o-graph` will copy all files from one destination to another while sorting chronologically, numbering and prepending your desired tag to each file.
 
     $ SRC=<path-to-source> DEST=<path-to-destination> TAG="<tag>" npm run organise
 
