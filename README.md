@@ -25,14 +25,15 @@
 
 ## Usage
 
-Download and install the app:
+Download, install and build the app:
 
     $ git clone https://github.com/b3nThomas/organise-o-graph.git
     $ cd organise-o-graph
     $ npm install
+    $ npm run build
 
 `organise-o-graph` will copy all files from one destination to another while sorting chronologically, numbering and prepending your desired tag to each file.
 
-    $ SRC=<path-to-source> DEST=<path-to-destination> TAG="<tag>" npm run organise
+    $ SRC="<path-to-source>" DEST="<path-to-destination>" TAG="<tag>" npm run organise
 
 Sorted...literally 😎
