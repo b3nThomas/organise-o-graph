@@ -5,6 +5,8 @@
 >*Inspired by the birth of my daughter and the hundreds of pictures I keep getting sent on Whatsapp* 😂  
 >*This app only supports .jpg and .mov files for now.*  
 
+>_I've tried my best, however modified / duplicated / edited files aren't sorted accurately 100% of the time_ 😭  
+
 `Before:`
 
     IMG_6515.jpg
@@ -20,3 +22,17 @@
     Babys_first_week_3.mov
     Babys_first_week_4.jpg
     Babys_first_week_3.jpg
+
+## Usage
+
+Download and install the app:
+
+    $ git clone https://github.com/b3nThomas/organise-o-graph.git
+    $ cd organise-o-graph
+    $ npm install
+
+`organise-o-graph` will copy all files from one destination to another while sorting chronically, numbering and prepending your desired tag to each file.
+
+    $ SRC=<path-to-source> DEST=<path-to-destination> TAG="<tag>" npm run organise
+
+Sorted...literally 😎
