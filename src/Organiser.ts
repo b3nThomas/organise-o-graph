@@ -100,6 +100,11 @@ export class Organiser {
         const leadingZeroes = this.files.length.toString().length;
         tag = tag.trim().replace(' ', '_');
         
+        console.log(
+            colors.bold.yellow('⚠'),
+            colors.bold('Copying files...')
+        );
+
         this.files.forEach((file, i) => {
             let index = `${i + 1}`;
             const name = file.fileName;
