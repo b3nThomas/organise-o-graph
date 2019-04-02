@@ -1,6 +1,14 @@
 {
-    "validFiles": [
-        "jpg",
-        "mov"
-    ]
+    "validFileTypes": {
+        "photos": [
+            "jpg"
+        ],
+        "videos": [
+            "mov"
+        ],
+        "combined": [
+            "jpg",
+            "mov"
+        ]
+    }
 }
