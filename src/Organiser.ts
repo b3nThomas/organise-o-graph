@@ -24,6 +24,7 @@ export class Organiser {
     private files: IFile[] = [];
 
     constructor(srcDir: string, destDir: string, tag: string) {
+        this.validFormats.combined = this.validFormats.photos.concat(this.validFormats.videos);
         this.setSourceDirectory(srcDir);
         this.setDestinationDirectory(destDir);
         this.storeFileMetadata();

@@ -6,11 +6,6 @@
         "videos": [
             "mov",
             "mp4"
-        ],
-        "combined": [
-            "jpg",
-            "mov",
-            "mp4"
         ]
     }
 }
