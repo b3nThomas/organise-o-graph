@@ -2,10 +2,11 @@
 
 **Chronologically organises, normalises and tags the file names of photos and videos.**  
 
->*Inspired by the birth of my daughter and the hundreds of pictures I keep getting sent on Whatsapp* 😂  
+>*Inspired by the birth of my daughter and the hundreds of pictures I keep getting sent on WhatsApp* 😂  
 >*This app only supports .jpg and .mov files for now.*  
 
->_I've tried my best, however modified / duplicated / edited files aren't sorted accurately 100% of the time_ 😭  
+>_I've tried my best with this..._  
+>_Wish I'd have known before that WhatsApp strips file metadata for security purposes..._ 😭  
 
 `Before:`
 
@@ -21,18 +22,19 @@
     Babys_first_week_2.jpg
     Babys_first_week_3.mov
     Babys_first_week_4.jpg
-    Babys_first_week_3.jpg
+    Babys_first_week_5.jpg
 
 ## Usage
 
-Download and install the app:
+Download, install and build the app:
 
     $ git clone https://github.com/b3nThomas/organise-o-graph.git
     $ cd organise-o-graph
     $ npm install
+    $ npm run build
 
-`organise-o-graph` will copy all files from one destination to another while sorting chronically, numbering and prepending your desired tag to each file.
+`organise-o-graph` will copy all files from one destination to another while sorting chronologically, numbering and prepending your desired tag to each file.
 
-    $ SRC=<path-to-source> DEST=<path-to-destination> TAG="<tag>" npm run organise
+    $ SRC="<path-to-source>" DEST="<path-to-destination>" TAG="<tag>" npm run organise
 
 Sorted...literally 😎
